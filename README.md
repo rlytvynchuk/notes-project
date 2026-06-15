@@ -36,5 +36,5 @@ npm install
 npm run dev
 ```
 
-The server runs on `http://localhost:3001` by default.
+The client runs on `http://localhost:5173` by default.
 
