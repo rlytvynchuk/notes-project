@@ -1,0 +1,117 @@
+{
+  "users": {
+    "rlytvynchuk@gmail.com": {
+      "id": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e",
+      "name": "Roman Lytvynchuk",
+      "email": "rlytvynchuk@gmail.com",
+      "passwordHash": "05e463bbfd401503f349855bb8015231:7a69dff51eda412f133c40c6152422174d3348fdcbb5122e2ffe295b51dd9d068f6457afaefa083d0a501a4a340d3f571cdecc758cc7475f1a2762fc4c094a7b",
+      "dateCreated": 1780733975962
+    },
+    "test@test.test": {
+      "id": "9063d6af-da46-45cb-a8b5-9215ab6e1a1f",
+      "name": "Test",
+      "email": "test@test.test",
+      "passwordHash": "db67f05206b0ac590d5d06cef2397af5:2fa1e9c1d81a3ead6282734f01acf2ad652161873dfd510af062049828686732274eb1a1d6eb62406e4c6053667bcc54b9249c972d935292173577d1167ede8f",
+      "dateCreated": 1780741514388
+    }
+  },
+  "notes": {
+    "rlytvynchuk@gmail.com": {
+      "49238928-3e16-47c7-9846-f91a6f2c4444": {
+        "id": "49238928-3e16-47c7-9846-f91a6f2c4444",
+        "content": "[{\"id\":\"7efd0111-e218-4634-b11d-8c03f273f86e\",\"type\":\"paragraph\",\"props\":{\"backgroundColor\":\"default\",\"textColor\":\"default\",\"textAlignment\":\"left\"},\"content\":[{\"type\":\"text\",\"text\":\"Testing the integration with backend\",\"styles\":{}}],\"children\":[]},{\"id\":\"ee854f85-7bfb-4ecd-81ae-86b3ae3ee599\",\"type\":\"bulletListItem\",\"props\":{\"backgroundColor\":\"default\",\"textColor\":\"default\",\"textAlignment\":\"left\"},\"content\":[{\"type\":\"text\",\"text\":\"List item 1\",\"styles\":{}}],\"children\":[]},{\"id\":\"8780c95b-0cad-43c2-8450-af67b35de9a8\",\"type\":\"bulletListItem\",\"props\":{\"backgroundColor\":\"default\",\"textColor\":\"default\",\"textAlignment\":\"left\"},\"content\":[{\"type\":\"text\",\"text\":\"List Item 2\",\"styles\":{}}],\"children\":[]},{\"id\":\"87161af4-8191-4fc7-b107-4f82ca731f5a\",\"type\":\"bulletListItem\",\"props\":{\"backgroundColor\":\"default\",\"textColor\":\"default\",\"textAlignment\":\"left\"},\"content\":[{\"type\":\"text\",\"text\":\"List item 3\",\"styles\":{}}],\"children\":[]},{\"id\":\"38db3432-ea05-4927-9c76-6206e13cd828\",\"type\":\"bulletListItem\",\"props\":{\"backgroundColor\":\"default\",\"textColor\":\"default\",\"textAlignment\":\"left\"},\"content\":[{\"type\":\"text\",\"text\":\"List Item 4\",\"styles\":{}}],\"children\":[]}]",
+        "dateCreated": 1780984026737,
+        "dateUpdated": 1781001113046,
+        "isFavorite": true,
+        "title": "My first note",
+        "userId": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e"
+      },
+      "a5aab41c-9003-4234-a128-8f775a14b8c4": {
+        "id": "a5aab41c-9003-4234-a128-8f775a14b8c4",
+        "content": "[{\"id\":\"834a2dce-f3e7-4498-9246-7c8e6f590853\",\"type\":\"paragraph\",\"props\":{\"backgroundColor\":\"default\",\"textColor\":\"default\",\"textAlignment\":\"left\"},\"content\":[{\"type\":\"text\",\"text\":\"content of the second note\",\"styles\":{}}],\"children\":[]}]",
+        "dateCreated": 1780984225276,
+        "dateUpdated": 1781000627280,
+        "isFavorite": false,
+        "title": "2nd note",
+        "userId": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e"
+      },
+      "b2e53ae1-53f7-48a5-b019-8578b0c66291": {
+        "id": "b2e53ae1-53f7-48a5-b019-8578b0c66291",
+        "content": "[{\"id\":\"eb07992e-3426-4981-9083-f5b298231301\",\"type\":\"paragraph\",\"props\":{\"backgroundColor\":\"default\",\"textColor\":\"default\",\"textAlignment\":\"left\"},\"content\":[{\"type\":\"text\",\"text\":\"here is the 3rd note content\",\"styles\":{}}],\"children\":[]}]",
+        "dateCreated": 1781000835931,
+        "dateUpdated": 1781000835931,
+        "isFavorite": false,
+        "title": "3rd note",
+        "userId": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e"
+      }
+    },
+    "test@test.test": {
+      "65735e5a-1a7d-44de-b5b8-2998b216df48": {
+        "id": "65735e5a-1a7d-44de-b5b8-2998b216df48",
+        "content": "[{\"id\":\"9ade4e6c-5bef-4bcf-9edf-825a16191c72\",\"type\":\"paragraph\",\"props\":{\"backgroundColor\":\"default\",\"textColor\":\"default\",\"textAlignment\":\"left\"},\"content\":[{\"type\":\"text\",\"text\":\"content\",\"styles\":{}}],\"children\":[]}]",
+        "dateCreated": 1781026152824,
+        "dateUpdated": 1781026152824,
+        "isFavorite": false,
+        "title": "test user note",
+        "userId": "9063d6af-da46-45cb-a8b5-9215ab6e1a1f"
+      }
+    }
+  },
+  "sessions": [
+    {
+      "token": "2b617073aad8e21411ade190b8ce9c3df53c7af2aced64d5f6c803579fe14f57",
+      "userId": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e",
+      "dateCreated": 1781012171503
+    },
+    {
+      "token": "48b642fd4d1be3dda136ceea76248e146e1e6c9aaa2922ecce4c7db0b2ddd16b",
+      "userId": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e",
+      "dateCreated": 1781091812260
+    },
+    {
+      "token": "619d7dabc624f018b845fe7d4bbe67ff4a617ca8b82b971d77d2e09b3127d659",
+      "userId": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e",
+      "dateCreated": 1781091834854
+    },
+    {
+      "token": "ce61cd01c1e9a3026386bdeb11d8075725fa94586baeebd4f1ac912603658fae",
+      "userId": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e",
+      "dateCreated": 1781091886702
+    },
+    {
+      "token": "4ff40af87d137857c376253c20c1938147d91659c5b1148e67d65dd7cb40526c",
+      "userId": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e",
+      "dateCreated": 1781091959558
+    },
+    {
+      "token": "260b12bf9268db2354753894e8731146490f448cff2e84f07b0b264c4c58cc99",
+      "userId": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e",
+      "dateCreated": 1781091998579
+    },
+    {
+      "token": "cb47b0838aecc551a425a023bc368957304fe80e8e7c687ea9ab5db54cdeaee1",
+      "userId": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e",
+      "dateCreated": 1781092007743
+    },
+    {
+      "token": "f2c0a3013fc091f0ae5f7ec0b4ba897e3e5ebae2c1c7d955f9b9a1f8e8a72cee",
+      "userId": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e",
+      "dateCreated": 1781092115053
+    },
+    {
+      "token": "808ce6c3f20e4ae2398c9b312357e989487db44037cc8da63b3c65d8a5c508c1",
+      "userId": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e",
+      "dateCreated": 1781092149124
+    },
+    {
+      "token": "1e3bbc10486fb1a29788f163e58737d4df26484b4796f475133b8b6ddf84e4af",
+      "userId": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e",
+      "dateCreated": 1781092960381
+    },
+    {
+      "token": "06d51e1328654701f39ff236c7345f9873ba3676ef36508689f2351c3b28e437",
+      "userId": "4cf206d4-2ed5-4b4c-a5ce-ccd7cd15840e",
+      "dateCreated": 1781164285330
+    }
+  ]
+}

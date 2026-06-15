@@ -1,0 +1,45 @@
+.edit-note {
+	display: flex;
+	flex-direction: column;
+	padding: var(--gap-m) var(--gap-l);
+	height: 100%;
+	overflow: hidden;
+}
+
+.edit-note .note-title {
+	margin-bottom: var(--gap-m);
+}
+
+.edit-note .note-title {
+	display: flex;
+}
+
+.edit-note .note-title input {
+	flex: 1;
+	font-size: var(--font-xl);
+	border-width: 0;
+	border-bottom: solid 1px var(--color-accent-200);
+	border-radius: 0;
+	color: var(--color-accent-500);
+
+}
+
+.edit-note .bn-root.bn-container {
+	flex: 1;
+	overflow: auto;
+}
+
+.edit-note .bn-root.bn-container .bn-editor {
+	height: 100%;
+	background: transparent;
+}
+
+.edit-note .panel .note-meta {
+	flex: 1;
+	justify-content: flex-end;
+}
+
+.edit-note .toolbar {
+	display: flex;
+	gap: var(--gap-m);
+}

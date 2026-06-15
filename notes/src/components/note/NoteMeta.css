@@ -1,0 +1,18 @@
+.note-meta {
+	display: flex;
+	flex-direction: row;
+	gap: var(--gap-l);
+}
+
+.note-meta .meta {
+	font-size: var(--font-s);
+	color: var(--color-regular-300);
+	display: flex;
+	flex-direction: row;
+	gap: var(--gap-l);
+}
+
+.note-meta .meta.note-draft {
+	font-weight: 600;
+	color: var(--color-danger-300);
+}

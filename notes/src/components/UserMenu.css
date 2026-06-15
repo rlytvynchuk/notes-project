@@ -1,0 +1,22 @@
+.user-menu {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-right: var(--gap-m);
+}
+
+.user-menu .icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.user-menu .icon svg {
+	width: 32px;
+	height: 32px;
+}
+
+.user-menu .user-name {
+	display: flex;
+	gap: var(--gap-m);
+}

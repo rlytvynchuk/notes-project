@@ -1,0 +1,17 @@
+.note-container {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.note-container.empty {
+	justify-content: center;
+	align-items: center;
+	color: var(--color-regular-300);
+	font-size: var(--font-m);
+	gap: var(--gap-m);
+}
+
+.note-container .note-meta {
+	justify-content: center;
+}

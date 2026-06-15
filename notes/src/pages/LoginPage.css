@@ -1,0 +1,40 @@
+.page.page-login {
+	grid-column: 1 / -1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.page.page-login .icon {
+	width: 64px;
+	height: 64px;
+	margin-bottom: var(--gap-m);
+}
+
+.page.page-login .icon svg {
+	fill: var(--color-accent-300);
+}
+
+.page.page-login .message {
+	font-size: var(--font-l);
+	color: var(--color-regular-300);
+}
+
+.page.page-login .login-form {
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap-m);
+	margin-top: var(--gap-l);
+}
+
+.page.page-login .login-form input {
+	width: 340px;
+	font-size: var(--font-l);
+}
+
+.page.page-login .login-form .register-message {
+	font-size: var(--font-m);
+	color: var(--color-regular-300);
+	margin-left: var(--gap-l);
+}

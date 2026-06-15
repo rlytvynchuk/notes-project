@@ -1,0 +1,35 @@
+.notes-list .note {
+	padding: var(--gap-m) var(--gap-l);
+	border-bottom: 1px solid var(--color-regular-100);
+	text-align: left;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.notes-list .note .note-content {
+	font-size: var(--font-m);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.notes-list .note.active {
+	background-color: var(--color-accent-100);
+	border-color: var(--color-accent-100);
+}
+
+.notes-list .note.active .note-meta .meta {
+	color: var(--color-accent-300);
+}
+
+.notes-list .note .data {
+	flex: 1;
+	overflow: hidden;
+}
+
+.notes-list .note .favorite-indicator svg {
+	width: 20px;
+	height: 20px;
+	fill: var(--color-accent-500);
+}

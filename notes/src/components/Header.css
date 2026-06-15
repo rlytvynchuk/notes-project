@@ -1,0 +1,29 @@
+#root > header {
+	display: flex;
+	align-items: center;
+	grid-column: 1 / -1;
+	border-bottom: 1px solid var(--color-regular-200);
+	padding: var(--gap-m) var(--gap-l);
+}
+
+#root > .header h1 {
+	margin: 0;
+	color: var(--color-regular-300);
+	margin-right: var(--gap-xl);
+	margin-top: -6px;
+}
+
+#root > .header .tabs {
+	margin-left: var(--gap-l);
+}
+
+#root > .header .header-buttons {
+	display: flex;
+	gap: var(--gap-m);
+}
+
+#root > .header .header-buttons button svg {
+	width: 24px;
+	height: 24px;
+	fill: var(--color-accent-500);
+}

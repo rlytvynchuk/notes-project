@@ -1,0 +1,22 @@
+.page.page-not-found {
+	grid-column: 1 / -1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.page.page-not-found .icon {
+	width: 64px;
+	height: 64px;
+	margin-bottom: var(--gap-l);
+}
+
+.page.page-not-found .icon svg {
+	fill: var(--color-danger-300);
+}
+
+.page.page-not-found .message {
+	font-size: var(--font-l);
+	color: var(--color-regular-300);
+}
