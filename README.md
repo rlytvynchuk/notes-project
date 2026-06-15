@@ -1,5 +1,5 @@
 # Info
-That's the pet project to that allows you to create/update/delete notes. Has basic Auth
+That's the pet project that allows you to create/update/delete notes and mark/filter favorites. Has basic Auth implemented
 
 - Backend is AI coded (Copilot CLI)
 - Front-end is hand made
